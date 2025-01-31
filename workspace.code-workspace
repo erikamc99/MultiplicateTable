@@ -1,0 +1,29 @@
+{
+	"folders": [],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic",
+		"terminal.integrated.profiles.windows": {
+
+			"PowerShell": {
+				"source": "PowerShell",
+				"icon": "terminal-powershell"
+			},
+			"Command Prompt": {
+				"path": [
+					"${env:windir}\\Sysnative\\cmd.exe",
+					"${env:windir}\\System32\\cmd.exe"
+				],
+				"args": [],
+				"icon": "terminal-cmd"
+			},
+			"Git Bash": {
+				"source": "Git Bash",
+				"path": [
+					"D:\\Programacion\\Git\\bin\\bash.exe"
+				],
+			}
+		},
+		"terminal.integrated.automationProfile.windows": {},
+		"java.dependency.packagePresentation": "hierarchical"
+	}
+}
